@@ -2,7 +2,6 @@
 ## Overview
 This project tackles the Kaggle “Titanic: Machine Learning from Disaster” challenge. Using passenger data (age, sex, class, family relationships, etc.), the goal is to build a model that predicts which passengers survived.
 
----
 
 ## Background
 The RMS Titanic sank on April 15, 1912, after striking an iceberg, resulting in over 1,500 fatalities. Kaggle’s Titanic competition provides a historical dataset of 891 training and 418 test passengers with features such as:
@@ -11,7 +10,7 @@ The RMS Titanic sank on April 15, 1912, after striking an iceberg, resulting in 
 - **Ticket, Fare, Cabin, Embarked (port of boarding)**  
 
 Understanding which factors (e.g., gender, class, family size) influenced survival can reveal both social patterns of the era and best practices in modern feature engineering and classification.
----
+
 
 ## Model Implementation
 
@@ -57,7 +56,7 @@ The output predictions are saved to `data/prediction.csv` in the required format
 | 893         | 1        |
 | ...         | ...      |
 
----
+
 ## Now Ready-to-submit output for Kaggle
 
 

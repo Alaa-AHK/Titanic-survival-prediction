@@ -1,4 +1,4 @@
-# titanic-survival-prediction
+# Titanic-Survival-Prediction
 ## Overview
 This project tackles the Kaggle “Titanic: Machine Learning from Disaster” challenge. Using passenger data (age, sex, class, family relationships, etc.), the goal is to build a model that predicts which passengers survived.
 

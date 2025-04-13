@@ -11,12 +11,11 @@ The RMS Titanic sank on April 15, 1912, after striking an iceberg, resulting in 
 - **Ticket, Fare, Cabin, Embarked (port of boarding)**  
 
 Understanding which factors (e.g., gender, class, family size) influenced survival can reveal both social patterns of the era and best practices in modern feature engineering and classification.
+---
 
-## 🛠️ Model Implementation
+## Model Implementation
 
 This solution for the Titanic classification task leverages a modular machine learning pipeline, built using Scikit-learn, to automate preprocessing, training, and evaluation of several classifiers. Below is a breakdown of the full implementation process:
-
----
 
 ### 1. Data Splitting
 - The train dataset is split using **StratifiedShuffleSplit** to ensure proportional class distribution.
@@ -32,8 +31,6 @@ Custom transformer classes are defined to handle preprocessing, and all steps ar
 
 ###  3. Feature Scaling
 Numerical features are standardized using `StandardScaler` after preprocessing.
-
----
 
 ### 4. Model Training & Selection
 
@@ -51,8 +48,6 @@ Each model underwent **Grid Search with 5-fold Cross-Validation** using `GridSea
 - Missing values (if any) are handled using forward fill.
 - Predictions are generated using the best model from the training phase.
 
----
-
 ### 6. Submission
 The output predictions are saved to `data/prediction.csv` in the required format:
 
@@ -62,8 +57,7 @@ The output predictions are saved to `data/prediction.csv` in the required format
 | 893         | 1        |
 | ...         | ...      |
 
-
-
+---
 ## Now Ready-to-submit output for Kaggle
 
 
